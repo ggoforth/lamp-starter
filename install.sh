@@ -17,11 +17,11 @@ apt-get install -y python-software-properties
 apt-get install -y zip unzip curl build-essential vim git tmux python g++ make
 
 # node js
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v1.29.0/install.sh | bash
-source ~/.bashrc
-echo "5.0.0" >> ~/.nvmrc
-nvm install
-npm install -g gulp
+#wget -qO- https://raw.githubusercontent.com/creationix/nvm/v1.29.0/install.sh | bash
+#source ~/.bashrc
+#echo "5.0.0" >> ~/.nvmrc
+#nvm install
+#npm install -g gulp
 
 # installing mysql
 # pre-loading a default password --> yourpassword
