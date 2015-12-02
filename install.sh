@@ -14,17 +14,7 @@ echo -e "${COLOR}---installing some tools: zip,unzip,curl, python-software-prope
 
 apt-get install -y software-properties-common
 apt-get install -y python-software-properties
-apt-get install -y zip unzip
-apt-get install -y curl
-apt-get install -y build-essential
-apt-get install -y vim
-apt-get install -y git
-
-add-apt-repository -y ppa:pi-rho/dev
-
-apt-get update
-apt-get install -y tmux
-apt-get install -y python g++ make
+apt-get install -y zip unzip curl build-essential vim git tmux python g++ make
 
 # node js
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
