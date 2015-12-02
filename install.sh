@@ -38,14 +38,7 @@ apt-get install -y php5 libapache2-mod-php5 php5-mcrypt php5-curl php5-mysql php
 
 #enable mod rewrite for apache2
 echo -e "${COLOR}---enabling rewrite module---${COLOR_RST}"
-if [ ! -f /etc/apache2/mods-enabled/rewrite.load ] ; then
-    a2enmod rewrite
-fi
-
-#deflat module for apache2
-if [ ! -f /etc/apache2/mods-enabled/deflate.load ] ; then
-    a2enmod deflate
-fi
+a2enmod rewrite
 
 # restart apache2
 echo -e "${COLOR}---restarting apache2---${COLOR_RST}"
